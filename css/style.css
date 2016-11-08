@@ -1,0 +1,328 @@
+/* CDN font
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300; Light
+  font-weight: 400; Normal
+  font-weight: 600; SemiBold
+ */
+body,h1{
+  margin:0;
+  padding:0;
+}
+.header{
+  background: url('../img/diwanee-cover.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 936px;
+  position: relative;
+}
+nav{
+    padding: 38px 16.402%;
+}
+.mobile-menu{
+  display: none;
+}
+.mobile-menu-close{
+  display: none;
+}
+.logo{
+  margin-left: 24px;
+}
+.navigation{
+  float: right;
+  margin-top: -6px;
+}
+.navigation ul{
+  list-style: none;
+}
+.navigation ul li{
+  display: inline-block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin: 0 31px;
+}
+.navigation ul li a{
+  color: #333333;
+  text-decoration: none;
+}
+.header-holder{
+  margin: auto;
+  position: absolute;
+  top: 32%;
+  left: 26%;
+  bottom: 25%;
+  right: 23%;
+  text-align: center;
+}
+.header-description{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: #333;
+  letter-spacing: 1px;
+  line-height: 40px;
+  margin-top: 66px;
+  padding: 0 120px;
+  display: block;
+}
+.title-page{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 120px;
+  color: #333;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.dash{
+  width: 67px;
+  height: 5px;
+  background-color: #C41230;
+  margin: 22px auto;
+  display: block;
+}
+
+.development {
+  display: inline-block;
+  width: 33.33%;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 80px;
+}
+
+.header-dev {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #333333;
+  letter-spacing: 4px;
+  line-height: 30px;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+.paragraph-dev {
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  color: #888;
+  line-height: 34px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 30px;
+}
+
+.dash-gray{
+  width: 45px;
+  height: 1px;
+  background-color: #B3AFAF;
+  margin: 22px auto;
+  display: block;
+  margin-top: 30px;
+}
+
+.development.gray {
+  background-color: #E5E5E5;
+}
+
+.about {
+  font-size: 0;
+}
+
+.header-positions {
+  display: block;
+  padding: 0 22.55%;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.positions {
+  font-family:'Source Sans Pro';
+  font-weight: 300;
+  text-align: center;
+  margin: 30px;
+  font-size: 15px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.jobs {
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  font-size: 60px;
+  color: #333;
+  letter-spacing: 3px;
+  line-height: 75px;
+  text-align: center;
+  margin: 30px;
+  text-transform: uppercase;
+}
+.job-text {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 36px;
+  color: #333333;
+  line-height: 50px;
+  margin-bottom: 60px;
+}
+.job-position{
+  font-size: 0;
+  padding: 80px 22.55%;
+  transition: 0.3s all ease;
+}
+.job-position:hover{
+  background-color: #333;
+}
+.job-position:hover .job-position-description h2,
+.job-position:hover .job-position-description span,
+.job-position:hover .job-position-button span{
+  color: white;
+  border-color: white;
+}
+.job-position-button{
+  display: inline-block;
+  width: 35%;
+  vertical-align: middle;
+}
+.job-position-description{
+  text-align: left;
+  width: 65%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.job-position-description h2{
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  font-size: 28px;
+  color: #333333;
+  letter-spacing: 2.33px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.job-position-description p{
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  font-size: 24px;
+  color: #888;
+  line-height: 34px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.job-position-description span{
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 16px;
+  color: #C41230;
+  letter-spacing: 2px;
+  padding: 10px 15px;
+  border: 1px solid #888;
+  margin-right: 10px;
+}
+.job-position-button{
+  text-align: right;
+}
+.job-position-button span,
+.load-more{
+  font-family: 'Source Sans Pro';
+  border: 1px solid #979797;
+  font-size:18px;
+  color font: #333;
+  letter-spacing: 2px;
+  line-height: 23px;
+  padding: 20px 50px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.darker{
+  background-color: #333;
+}
+.white{
+  color: white;
+}
+.load-more{
+  width: 150px;
+  text-align: center;
+  margin: 110px auto;
+}
+.company{
+  padding: 120px 22.55%;
+  background-color: #fbfbfb;
+}
+.company .smaller{
+  font-size: 24px;
+  color: #888;
+  font-weight: 300;
+  text-align: justify;
+  margin-top: 80px;
+}
+.social{
+  margin: 120px 0;
+}
+.social-icons{
+  text-align: center;
+}
+.social-icons img{
+  margin: 0 15px;
+}
+.footer{
+  background-color: #2d2d2d;
+  font-size: 0;
+  padding: 128px 15%;
+}
+.location{
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  font-size: 18px;
+  color: #9B9B9B;
+  line-height: 28px;
+  display: inline-block;
+  width: 33.33%;
+  vertical-align: top;
+}
+.location img{
+    vertical-align: middle;
+}
+.location > span {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+.location-adress{
+  margin-top: 30px;
+}
+.location-adress span{
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  display: block;
+  font-size: 18px;
+  color: #9B9B9B;
+  line-height: 28px;
+}
+.footer-bottom{
+  background-color: #242424;
+  padding: 15px 15%;
+  padding-top: 30px;
+  height: 20px;
+  margin-top: -1px;
+}
+.copyright{
+  float: left;
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #5B5B5B;
+  letter-spacing: 2px;
+}
+.website{
+  float: right;
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  font-size: 12px;
+  color: #5B5B5B;
+  letter-spacing: 2px;
+}

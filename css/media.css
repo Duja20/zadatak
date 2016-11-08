@@ -1,0 +1,166 @@
+@media screen and (max-width:767px){
+  body{
+    overflow-x: hidden;
+  }
+  nav{
+    padding: 15px 5%;
+  }
+  .mobile-menu{
+    display: block;
+    float: right;
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+  }
+  .navigation{
+    display: none;
+    float: none;
+    position: relative;
+    z-index: 2;
+  }
+  .navigation ul{
+    padding: 0;
+    background-color: #363636;
+    z-index: 10;
+  }
+  .navigation ul li{
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #909598;
+    margin: 0;
+  }
+  .navigation ul li a{
+    color: white;
+  }
+  .mobile-menu-close{
+    display: none;
+    float: right;
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+  }
+  .header{
+    height: 538px;
+  }
+  .title-page{
+    font-size: 48px;
+    text-align: center;
+  }
+  .header-holder{
+    left: 5%;
+    right: 5%;
+    z-index: 1;
+  }
+  .mobile-title{
+    font-size: 30px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .header-description{
+    display: none;
+  }
+  .development{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .header-dev{
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .dash-gray{
+    margin: 5px auto;
+  }
+  .paragraph-dev{
+    font-size: 10px;
+    line-height: 25px;
+    margin-top: 10px;
+  }
+  .header-positions{
+    padding: 0;
+  }
+  .jobs{
+    font-size: 30px;
+    margin: 15px;
+    line-height: 35px;
+  }
+  .positions{
+    margin: 10px;
+    font-size: 10px;
+  }
+  .job-position{
+    padding: 10px 5%;
+  }
+  .job-position:nth-child(odd){
+    background-color: #f8f7f5;
+  }
+  .job-position:hover{
+    background-color: inherit;
+  }
+  .job-position:hover .job-position-description h2,
+  .job-position:hover .job-position-description span,
+  .job-position:hover .job-position-button span{
+    color: inherit;
+  }
+  .job-text{
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 40px;
+  }
+  .job-position-description{
+    width: 100%;
+  }
+  .job-position-description h2,
+  .job-position-description p{
+    font-size: 12px;
+  }
+  .job-position-description p{
+    line-height: 17px;
+    margin: 15px 0;
+  }
+  .job-position-description span{
+    font-size: 12px;
+    border: 0;
+    padding: 0;
+  }
+  .job-position-button{
+    display: none;
+  }
+  .load-more{
+    font-size: 12px;
+    margin: 40px auto;
+    padding: 10px 25px;
+  }
+  .company{
+    padding: 20px 5%;
+  }
+  .company .smaller{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 40px;
+  }
+  .social{
+    margin: 40px 10%;
+  }
+  .footer{
+    padding: 30px 5%;
+  }
+  .location{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .footer-bottom{
+    height: 50px;
+    padding:15px 5%;
+  }
+  .copyright,
+  .website{
+    display: block;
+    float: none;
+  }
+}
